@@ -15,4 +15,5 @@ public class MarshmallowOutput
 		JOptionPane.showMessageDialog(null, "My best friend is a monster, his name is: ");
 		JOptionPane.showMessageDialog(null, "He's got some characteristics, here they are: ");
 	}
+	
 }
