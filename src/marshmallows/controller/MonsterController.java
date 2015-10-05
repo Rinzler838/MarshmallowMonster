@@ -26,9 +26,9 @@ public class MonsterController
 	}
 	
 	public void start()
-	{	//rinzlerMonster.toString();	(Used to be here)
+	{	rinzlerMonster.toString();	//(Used to be here)
 		myOutput.displayMonsterInfo(rinzlerMonster.toString());	
-		//askQuestions(); 				(Used to be here)
+		askQuestions(); 				//(Used to be here)
 		myOutput.displayMonsterGUI("New Monster Info: " + rinzlerMonster.toString());
 		this.makeUserMonster();
 		myOutput.displayMonsterInfo("New Monster Info " + userMonster.toString());
